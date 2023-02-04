@@ -12,7 +12,6 @@ const Tasks = () => {
     const fetchTasks = async () => {
         try {
             const { data } = await axios.get("https://fsc-task-manager-backend.herokuapp.com/tasks")
-            console.log(data)
             setTasks(data)
         } catch (error) {
             console.log(error)
