@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-const TaskItem = ({task}) => {
+const TaskItem = ({ task }) => {
     return (
         <>
             <h1>{task.description}</h1>
